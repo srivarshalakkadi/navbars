@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #d1d5db;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Common Navbar Style */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-radius: 6px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Blue Theme */
+.bg-blue {
+  background-color: #1e2585;
+  color: #ffffff;
+}
+
+.bg-blue .nav-links a {
+  color: #a5b4fc;
+}
+
+.bg-blue .nav-links a:hover {
+  color: #ffffff;
+}
+
+/* White Theme */
+.bg-white {
+  background-color: #ffffff;
+  color: #111827;
+}
+
+.bg-white .nav-links a {
+  color: #6b7280;
+}
+
+.bg-white .nav-links a:hover {
+  color: #111827;
+}
+
+/* Button Styles */
+.btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-green {
+  background-color: #25d366;
+  color: #ffffff;
+}
+
+.btn-blue {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+/* Text Links */
+.link-signin {
+  color: #4b5563;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.link-white {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.link-blue-text {
+  color: #1e2585;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
